@@ -18,6 +18,7 @@ int main(void) {
 	int num1;
 	int num2;
 	float resul;
+	int resul2;
 	printf("ingrese un numero:");
 	scanf("%d",&num1);
 
@@ -25,7 +26,9 @@ int main(void) {
 	scanf("%d",&num2);
 
 	resul =(float) num1 / num2;
+	resul2 = num1 * num2;
 
-	printf("division es %.2f",resul);
+
+	printf("division es %.2f\n y y la multiplicacion es : %d",resul,resul2);
 	return EXIT_SUCCESS;
 }
